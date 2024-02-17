@@ -3,33 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="stylesheet" href="./estiloForm.css" />
   <title>Formulario de contactos</title>
 </head>
 <body>
 
   <header>
-    <h1>FORMULARIO</h1>
+    <div id="header">
+    <h1>ROXETTE</h1>
+    </div>
   </header>
   <nav>
-    <span><a href="./index.html">INICIO</a><a href="#">CATALOGO</a><a href="#">INFORMACION</a><a href="./formulario.html">CONTACTENOS</a></span>
+    <a href="./index.html">INICIO</a><a href="./catalogo.html">CATALOGO</a><a href="./informacion.html">INFORMACION</a><a href="./formulario.html">CONTACTENOS</a>
   </nav>
   <main>
-    <section>
+    <section class="section-form">
+      <h2>FORMULARIO</h2>
       <form>
         <div><input type="text" name="nombre" placeholder="Nombre" /></div>
         <div><input type="text" name="nombre" placeholder="Apellido" /></div>
         <div><input type="email" name="emain" placeholder="E-Mail" /></div>
-        <div><label for="masculino">Masculino</label>
-          <input type="radio" name="genero" value="masculino" id="masculino" /></div>
-        <div><label for="femenino">Femenino</label>
-            <input type="radio" name="genero" value="femenino" id="femenino" /></div>
-        <div><label for="otros">Otros</label>
-            <input type="radio" name="genero" value="otros" id="otros" /></div>
+          <div class="contenedor-genero">
+            <div><label for="masculino" class="genero">Masculino</label>
+              <input type="radio" name="genero" value="masculino" id="masculino" /></div>
+            <div><label for="femenino" class="genero">Femenino</label>
+                <input type="radio" name="genero" value="femenino" id="femenino" /></div>
+            <div><label for="otros" class="genero">Otros</label>
+                <input type="radio" name="genero" value="otros" id="otros" /></div>
+          </div>
         <div><textarea placeholder="Su mensaje:"></textarea></div>
         <div><input type="submit" value="ENVIAR" /></div>
       </form>
     </section>
   </main>
+  <footer>
+    <a href="">Paginas Relacionadas</a>
+    <span class="footer-span"><a href="#">INICIO</a><a href="./catalogo.html">CATALOGO</a><a href="./informacion.html">INFORMACION</a><a href="./formulario.html">CONTACTENOS</a></span>
+  </footer>
   
 </body>
 </html>

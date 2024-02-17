@@ -3,45 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css" />
   <title>Mi Primer Sitio Web</title>
 </head>
 <body>
   <header>
-    <h1>ROXETTE - JOYRIDE</h1>
+    <div id="header">
+    <h1>ROXETTE</h1>
+    </div>
   </header>
   <nav>
-    <span><a href="#">INICIO</a><a href="./catalogo.html">CATALOGO</a><a href="./informacion.html">INFORMACION</a><a href="./formulario.html">CONTACTENOS</a></span>
+    <a href="#">INICIO</a><a href="./catalogo.html">CATALOGO</a><a href="./informacion.html">INFORMACION</a><a href="./formulario.html">CONTACTENOS</a>
   </nav>
   <main>
     <section>
-      <article>
-        <div>
-          <p>Joyride (en español: "Paseo divertido") es el tercer álbum de estudio de la banda sueca Roxette, lanzado el 28 de marzo de 1991 por el sello discográfico EMI. Es uno de los álbumes emblemáticos del pop de los años 90. El disco se situó como la placa discográfica más vendida del dúo sueco con 11 millones de copias, según reseña el sitio Best selling albums,1​ superando a Look Sharp! que registro ventas por 10 millones de copias</p>
+      <article>        
+        <div class="info">
+          <p><b>Roxette</b> fue un dúo sueco de pop rock formado por la cantante Marie Fredriksson y el cantante y compositor Per Gessle.1​ El dúo es considerado uno de los grupos suecos más importantes y de mayor éxito desde los tiempos de ABBA. Sobre la comparación del grupo con ABBA, Per Gessle afirma: «Pienso que la gran diferencia entre Roxette y ABBA es que nosotros estamos mucho más orientados a la música rock de lo que ABBA fue.</p>
         </div>
         <h2>PORTADA</h2>
-          <img src="./joyride-cover.jpg" alt="Portada disco" />
-          <p><b>Joyride</b> - Lanzamiento original en vinilo de 12" en 1991; relanzamiento del 30 aniversario en vinilo de 12" en 2021</p>
-        <h2>LISTA DE CACIONES</h2>
-          <ol>
-            <li>Joyride</li>
-            <li>Hotblooded</li>
-            <li>Fading Like a Flower (Every Time You Leave)</li>
-            <li>Knockin' on Every Door</li>
-            <li>Spending My Time</li>
-            <li>Watercolours in the Rain</li>
-            <li>The Big L</li>
-            <li>(Do You Get) Excited?</li>
-            <li>Small Talk</li>
-            <li>Physical Fascination</li>
-            <li>Things Will Never Be the Same</li>
-            <li>Perfect Day</li>
+        <div id="contenedor-img">
+          <figure>
+            <img src="./img01.webp" alt="Foto de Roxette" />
+          </figure>
+          <figure>
+            <img src="./img02.jpg" alt="Foto de Roxette" />
+          </figure>
+        </div>
+        <h2>DISCOGRAFIA
+        </h2>
+          <ol id="lista-discografica">
+            <li>Pearls of Passion (1986) y Dance Passion (1987)</li>
+            <li>Look Sharp! (1988)</li>
+            <li>FJoyride (1991)</li>
+            <li>Tourism (1992)</li>
+            <li>Crash! Boom! Bang! (1994)</li>
+            <li>Rarities y Don't Bore Us - Get to the Chorus! Roxette's Greatest Hits (1995)</li>
+            <li>Baladas en Español (1996) y relanzamiento de Pearls of Passion (1997)</li>
+            <li>Have a Nice Day (1999)</li>
+            <li>Room Service (2001)</li>
+            <li>The Ballad Hits (2002) y The Pop Hits (2003)</li>
+            <li>he Rox Box/Roxette 86-06 (2006)</li>
+            <li>Charm School (2011) y Travelling (2012)</li>
+            <li>Good Karma (2016)</li>            
           </ol>
       </article>
-
     </section>
   </main>
   <footer>
     <a href="">Paginas Relacionadas</a>
+    <span class="footer-span"><a href="#">INICIO</a><a href="./catalogo.html">CATALOGO</a><a href="./informacion.html">INFORMACION</a><a href="./formulario.html">CONTACTENOS</a></span>
   </footer>
   
 </body>

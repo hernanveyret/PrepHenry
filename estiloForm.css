@@ -1,0 +1,46 @@
+.section-form {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+form {
+  width: 50vw;
+  margin: 10px  auto;
+}
+input[type="text"],input[type="email"] {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+}
+input[type="submit"]{
+  width: 100%;
+  padding: 5px;
+  background-color: rgb(18, 110, 248);
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+}
+input[type="submit"]:hover {
+  background-color: rgb(11, 228, 11);
+  color: black;
+}
+.genero {
+  color: white;
+}
+.contenedor-genero {
+  display: flex;
+  padding: 0.4em
+}
+.contenedor-genero div {
+  margin-left: 5px;
+}

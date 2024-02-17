@@ -1,0 +1,84 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+#header {
+  background-color: blue;
+  width: 100%;
+  margin: auto;
+  font-size: 2em;
+  text-align: center ;
+  color: rgb(236, 100, 8);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: orangered;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5em;
+  color: white;
+  transition: 0.8s;
+}
+a:hover{
+  text-shadow: 3px 3px 4px black;
+}
+.info p {
+  text-align: justify;
+  margin: 5px;
+}
+#lista-discografica {
+  margin: 10px;
+}
+#lista-discografica li {
+  transition: .5s;
+  margin: 3px 0;
+}
+#lista-discografica li:hover {
+  transform: translateX(1.5em);
+}
+article {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+figure {
+  width: 50%;
+  margin: 5px;
+}
+figure img {
+  width: 100%
+}
+#contenedor-img {
+  display: flex;
+}
+footer {
+  background-color: grey;
+  height: 2em;
+  display: flex;
+  margin-top: 10px;
+}
+.footer-span {
+  font-size: 0.7em;
+  margin: auto;
+}
+.error  {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
